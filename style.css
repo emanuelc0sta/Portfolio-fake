@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to bottom, #000000, #a1a1a1);
+}
+
+::-webkit-scrollbar {
+    width: 0; 
+    height: 0; 
+}
+
+html {
+    scrollbar-width: none;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 80%;
+    padding: 20px;
+    margin: 60px auto; 
+    border-radius: 80px;
+}
+
+h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: white;
+}
+
+h2 {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 20px;
+    color:#434343
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 20px;
+    
+}
+
+p{
+    font-size: 20px;
+    color: #000000;
+}
+
+header{
+    text-align: center;
+    padding: 35px;
+}
+
+header nav{
+    padding-top: 1rem;
+    font-size: 22px;
+}
+
+header nav a {
+    padding: 1.5rem;
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+    text-transform: uppercase;
+}
+
+header nav a:hover{
+    color: rgb(254, 254, 254);
+}
+
+
+section {
+    padding: 1.3rem;
+}
+
+#sobre p{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+#grid-de-projetos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 50px;
+    justify-items: center;
+    padding: 50px;
+}
+
+#projeto img {
+    width: 400px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out ;
+    border-radius: 16px;
+
+}
+#projeto:hover img {
+    transform: scale(1.05); 
+}
+
+#projeto p{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#icones-contato{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    justify-items: center;
+    padding: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#icones-contato img{
+    width: 70px;
+}
+
+footer{
+    background-color: #000000;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+footer p {
+    color: white;
+}
